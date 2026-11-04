@@ -16,13 +16,10 @@
 .project-image>.case-study-image{display:block;width:100%;height:100%;object-fit:cover}
 .project-image>.project-label{display:none}
 .project-card .arrow-circle{display:none}
-.travel-note{min-height:350px;background:#f2e9dc;color:var(--ink);padding:38px 40px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
-.travel-note:before,.travel-note:after{content:'';position:absolute;border:1px solid #e9764e55;border-radius:50%;width:280px;height:280px;right:-85px;top:-80px}
-.travel-note:after{width:225px;height:225px;right:-58px;top:-52px;border-style:dashed}
-.travel-note-kicker{font-size:.58rem;letter-spacing:.15em;font-weight:700;color:#796f62;position:relative;z-index:1}
-.travel-note strong{font:600 clamp(2rem,3.5vw,3rem)/1.05 var(--serif);letter-spacing:-.04em;position:relative;z-index:1}
-.travel-note strong em{color:var(--orange)}
-.travel-note>span:last-of-type{font-size:.7rem;letter-spacing:.08em;font-weight:600;position:relative;z-index:1}
-.travel-note i{position:absolute;right:38px;bottom:35px;font-style:normal;color:var(--orange);font-size:2.1rem}
-@media(max-width:760px){.hero-visual .main-photo{right:12%;width:65%;height:91%}.travel-note{min-height:330px}}
-@media(max-width:460px){.hero-visual .main-photo{right:12%;width:67%;height:91%}.travel-note{min-height:280px;padding:28px}.travel-note strong{font-size:2.2rem}}
+.hero-visual .main-photo{height:78%}
+.hero-profile{position:absolute;z-index:3;left:13%;right:12%;bottom:0;display:flex;flex-direction:column;gap:5px;color:var(--ink)}
+.hero-profile strong{font:600 1.12rem/1.15 var(--serif)}
+.hero-profile span{font-size:.58rem;line-height:1.35;color:var(--muted)}
+.journey-inner{grid-template-columns:1fr;min-height:440px}
+@media(max-width:760px){.hero-visual .main-photo{right:12%;width:65%;height:78%}.journey-inner{min-height:0;padding-top:75px;padding-bottom:75px}}
+@media(max-width:460px){.hero-visual .main-photo{right:12%;width:67%;height:78%}.hero-profile{left:12%;right:10%;gap:4px}.hero-profile strong{font-size:1rem}.hero-profile span{font-size:.53rem}}
